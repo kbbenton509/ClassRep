@@ -1,4 +1,4 @@
-import unittest
+import unittest #import the unittest module used for testing the functions
 import Assignment1b.py #imports the Assignment file to use for the unittest
  
 class CTest(unittest.TestCase): #class used to test the functions
