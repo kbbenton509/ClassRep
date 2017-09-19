@@ -1,6 +1,5 @@
 import csv
-import unittest
-import glob, os #all imports needed
+import glob, os #all imports needed for this program
 path = os.getcwd() #gets the current path of the directory, this is used later on to find if the xml file is in the directory
 os.chdir(path)
 os.remove("Test.xml") #removes previous conversion xml file so the program will not give a false positive
